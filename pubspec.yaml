@@ -1,0 +1,31 @@
+name: student_app_state
+description: A new Flutter project.
+
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.18.2 <3.0.0"
+
+dependencies:
+  cupertino_icons: ^1.0.2
+  flutter:
+    sdk: flutter
+  flutter_riverpod: ^2.1.3
+  hive_flutter: ^1.1.0
+  image_picker: ^0.8.6
+
+dev_dependencies:
+  hive_generator: ^1.1.1
+  build_runner: ^2.1.5
+
+  flutter_lints: ^2.0.0
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/pro.jpg
+    - assets/pp3.jpg
